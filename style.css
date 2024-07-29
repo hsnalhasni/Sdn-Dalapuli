@@ -1,0 +1,123 @@
+/* Padding to prevent content from being hidden behind the fixed navbar */
+body {
+    padding-top: 56px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 50px 20px; /* Menambahkan padding kiri dan kanan */
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20px; /* Memberikan ruang antara teks dan gambar */
+    padding-left: 20px; /* Menambahkan padding kiri */
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Memberikan sedikit efek melengkung pada sudut gambar */
+}
+
+/* Navbar */
+.navbar {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #17a2b8; /* Warna biru muda */
+    transition: background-color 0.3s;
+}
+
+.navbar-light.bg-info {
+    background-color: rgba(21, 189, 208, 0.751) !important; /* Light blue */
+}
+
+
+
+/* Navbar styles when scrolled */
+.navbar-scroll {
+    background-color: rgba(28, 161, 218, 0.9) !important; /* Darker blue */
+}
+
+
+.navbar-logo {
+    height: 40px; /* Adjust the height as needed */
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+.navbar-brand {
+    font-weight: bold;
+    color: white !important; /* Warna teks navbar brand menjadi putih */
+    
+}
+
+.nav-link {
+    color: white !important; /* Warna teks navbar link menjadi putih */
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important; /* Warna teks navbar link saat dihover */
+}
+
+/* Footer */
+footer {
+    background-color: #17a2b8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center; /* Pusatkan konten footer */
+    flex-direction: column; /* Kolom untuk memusatkan semua konten di satu arah */
+    align-items: center; /* Pusatkan konten secara horizontal */
+}
+
+footer .text-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #343a40;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Card in Berita & Pengumuman Section */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
